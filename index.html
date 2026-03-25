@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Globe 3D interactif</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Globe 3D de données pays</h1>
+      <label for="category-select">Catégorie :</label>
+      <select id="category-select" aria-label="Sélectionner une catégorie de données">
+        <option value="economie">Économie</option>
+        <option value="politique">Politique</option>
+        <option value="environnement">Environnement</option>
+      </select>
+    </header>
+
+    <main class="layout">
+      <section class="globe-panel">
+        <div id="globeViz" aria-label="Globe 3D interactif"></div>
+        <div class="floating-info" id="floating-info">Cliquez sur un pays pour afficher ses données.</div>
+        <div class="legend">
+          <strong>Intensité du score</strong>
+          <div class="legend-gradient"></div>
+          <small>Faible → Élevé</small>
+        </div>
+      </section>
+
+      <aside class="info-panel" id="country-details" aria-live="polite">
+        <h2>Sélectionnez un pays</h2>
+        <p class="subtitle">Cliquez sur un pays pour voir ses indicateurs détaillés.</p>
+        <div class="cards" id="detail-cards"></div>
+      </aside>
+    </main>
+
+    <script src="https://unpkg.com/three"></script>
+    <script src="https://unpkg.com/globe.gl"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
