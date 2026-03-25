@@ -1,0 +1,44 @@
+{
+  "USA": {
+    "name": "États-Unis",
+    "economie": {"score": 95, "details": {"PIB (Mds $)": "27 360", "Volume de marché": "Très élevé", "Croissance": "2,1%"}},
+    "politique": {"score": 76, "details": {"Indice de stabilité": "76/100", "Participation électorale": "66%", "Risque géopolitique": "Modéré"}},
+    "environnement": {"score": 59, "details": {"Score environnemental": "59/100", "Émissions CO₂/hab": "14,7 t", "Énergie renouvelable": "22%"}}
+  },
+  "FRA": {
+    "name": "France",
+    "economie": {"score": 82, "details": {"PIB (Mds $)": "3 050", "Volume de marché": "Élevé", "Croissance": "1,0%"}},
+    "politique": {"score": 81, "details": {"Indice de stabilité": "81/100", "Participation électorale": "73%", "Risque géopolitique": "Faible"}},
+    "environnement": {"score": 74, "details": {"Score environnemental": "74/100", "Émissions CO₂/hab": "4,5 t", "Énergie renouvelable": "33%"}}
+  },
+  "BRA": {
+    "name": "Brésil",
+    "economie": {"score": 68, "details": {"PIB (Mds $)": "2 130", "Volume de marché": "Moyen", "Croissance": "2,9%"}},
+    "politique": {"score": 61, "details": {"Indice de stabilité": "61/100", "Participation électorale": "79%", "Risque géopolitique": "Modéré"}},
+    "environnement": {"score": 66, "details": {"Score environnemental": "66/100", "Émissions CO₂/hab": "2,3 t", "Énergie renouvelable": "48%"}}
+  },
+  "IND": {
+    "name": "Inde",
+    "economie": {"score": 78, "details": {"PIB (Mds $)": "3 570", "Volume de marché": "Très élevé", "Croissance": "6,5%"}},
+    "politique": {"score": 64, "details": {"Indice de stabilité": "64/100", "Participation électorale": "67%", "Risque géopolitique": "Modéré"}},
+    "environnement": {"score": 51, "details": {"Score environnemental": "51/100", "Émissions CO₂/hab": "1,9 t", "Énergie renouvelable": "20%"}}
+  },
+  "CHN": {
+    "name": "Chine",
+    "economie": {"score": 91, "details": {"PIB (Mds $)": "17 700", "Volume de marché": "Très élevé", "Croissance": "4,7%"}},
+    "politique": {"score": 58, "details": {"Indice de stabilité": "58/100", "Participation électorale": "N/A", "Risque géopolitique": "Élevé"}},
+    "environnement": {"score": 54, "details": {"Score environnemental": "54/100", "Émissions CO₂/hab": "8,7 t", "Énergie renouvelable": "30%"}}
+  },
+  "ZAF": {
+    "name": "Afrique du Sud",
+    "economie": {"score": 57, "details": {"PIB (Mds $)": "410", "Volume de marché": "Moyen", "Croissance": "0,8%"}},
+    "politique": {"score": 55, "details": {"Indice de stabilité": "55/100", "Participation électorale": "66%", "Risque géopolitique": "Modéré"}},
+    "environnement": {"score": 49, "details": {"Score environnemental": "49/100", "Émissions CO₂/hab": "7,0 t", "Énergie renouvelable": "11%"}}
+  },
+  "AUS": {
+    "name": "Australie",
+    "economie": {"score": 79, "details": {"PIB (Mds $)": "1 720", "Volume de marché": "Élevé", "Croissance": "1,7%"}},
+    "politique": {"score": 84, "details": {"Indice de stabilité": "84/100", "Participation électorale": "90%", "Risque géopolitique": "Faible"}},
+    "environnement": {"score": 71, "details": {"Score environnemental": "71/100", "Émissions CO₂/hab": "15,3 t", "Énergie renouvelable": "36%"}}
+  }
+}

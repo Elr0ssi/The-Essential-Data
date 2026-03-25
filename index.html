@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carte mondiale interactive</title>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <h1>Tableau mondial interactif</h1>
+      <label for="category-select">Catégorie :</label>
+      <select id="category-select" aria-label="Sélectionner une catégorie de données">
+        <option value="economie">Économie</option>
+        <option value="politique">Politique</option>
+        <option value="environnement">Environnement</option>
+      </select>
+    </header>
+
+    <main class="layout">
+      <section class="map-panel">
+        <div id="map" role="application" aria-label="Carte interactive du monde"></div>
+      </section>
+
+      <aside class="info-panel" id="country-details" aria-live="polite">
+        <h2>Sélectionnez un pays</h2>
+        <p class="subtitle">Cliquez sur un pays pour voir ses indicateurs détaillés.</p>
+        <div class="cards" id="detail-cards"></div>
+      </aside>
+    </main>
+
+    <script
+      src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+      integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+      crossorigin=""
+    ></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
