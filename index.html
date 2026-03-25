@@ -20,7 +20,7 @@
     <main class="layout">
       <section class="globe-panel">
         <div id="globeViz" aria-label="Globe 3D interactif"></div>
-        <div class="floating-info" id="floating-info">Cliquez sur un pays pour afficher ses données.</div>
+        <div class="floating-info" id="floating-info">Chargement du globe…</div>
         <div class="legend">
           <strong>Intensité du score</strong>
           <div class="legend-gradient"></div>
@@ -35,8 +35,8 @@
       </aside>
     </main>
 
-    <script src="https://unpkg.com/three"></script>
-    <script src="https://unpkg.com/globe.gl"></script>
+    <script src="https://unpkg.com/three@0.160.0/build/three.min.js"></script>
+    <script src="https://unpkg.com/globe.gl@2.39.4/dist/globe.gl.min.js"></script>
     <script src="script.js" defer></script>
   </body>
 </html>
